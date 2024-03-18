@@ -1,0 +1,68 @@
+# Difference between shell scripting vs Python
+
+## Shell
+
+- System Administration
+	- Automating route system administration tasks
+	- Starting and stopping services
+	- Managing users
+	- Basic file manipulation
+- Command line interactions
+- Rapid Prototyping
+- Text Processing
+	- Text manipulation e.g. parsing logs, searching and replacing text, extracting data from text-based resources
+- Environment Variables and configuration
+
+
+## Python
+
+- Complex logic: data structures, algorithms, data manipulation
+- Cross platform compatiability: Windows, Linux, Unix, Mac
+- API Integration: Application Programming Interface (API)
+	- Request and Response system
+- Reusable code (DRY)
+- Error Handling: try, except and finally block
+- Advanced Data Processing
+-----------------------------------------------
+
+- There are 2 major versions in Python i.e. Python v2 and Python v3
+- Python v2 has reached its EOL (End of life) 20 April 2020
+- Python v3 initial release was on 3 December 2008
+- Scripts in python are saved using .py extension
+- To run a python script, we use: python hello_world.py
+- Python is case-sensitive which means python treats A and a as different
+- To comment a line of code in python, we use: # -> Single line comment
+- Similarly, you can also comment out a block of code using: 
+	"""
+	"""
+- Also, you can write an inline comment along with the line of code
+	e.g. print("Hello World") # This line of code prints Hello World
+
+Variables
+---------
+- It is a box to store some data inside it and use it when ever needed
+
+Data types:
+-----------
+- Numeric datatypes: 
+	- int: e.g. 1, 2, 20, 40 etc
+	- float: e.g. 1.22, 2.34, 4.35
+	- complex: e.g. 1 + 2j, 4 + 5j
+- Boolean type: True, False
+- Sequence types: 
+	- str: 'a', "Hello world", 
+		"""
+		This is a
+		multiline string
+		"""
+	- list:
+	- tuple:
+- Mapping type: dict
+- Set types: set, frozenset (immutable)
+- Binary type: byte (immutable sequences of bytes), bytearray (mutable sequences of bytes)
+- None Type
+- Custom datatypes
+	- This is usually defined using Classes
+
+- To identify the datatype of a variable, we can use a function called as: type()
+- It is important to know the datatype, as there are specific methods that can be applied to those datatypes
